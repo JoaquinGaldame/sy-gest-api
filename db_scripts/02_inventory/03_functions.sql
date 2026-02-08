@@ -1,0 +1,2 @@
+-- Inventory functions (none for now)
+-- ADJUST movement stores target quantity in stock_movements.quantity.
