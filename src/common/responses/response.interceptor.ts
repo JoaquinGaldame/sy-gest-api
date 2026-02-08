@@ -8,7 +8,7 @@ import {
 import type { Request, Response } from 'express';
 import { map } from 'rxjs/operators';
 import { ApiResponseFactory } from './api-response.factory';
-import type { APIResponse, ResponseDebug } from './api-response.types';
+import type { ResponseDebug } from './api-response.types';
 
 @Injectable()
 export class ResponseInterceptor implements NestInterceptor {
